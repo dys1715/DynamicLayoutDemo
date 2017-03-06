@@ -18,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.btn_dynamic).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, DynamicLayoutActivity.class));
             }
         });
 
-        findViewById(R.id.btn_drawable).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, DrawableActivity.class));

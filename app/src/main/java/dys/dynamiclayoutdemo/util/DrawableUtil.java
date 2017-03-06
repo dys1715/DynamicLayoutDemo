@@ -2,7 +2,10 @@ package dys.dynamiclayoutdemo.util;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
+import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.StateListDrawable;
+
+import java.util.List;
 
 /**
  * Created by dys on 2017/3/3 0003.

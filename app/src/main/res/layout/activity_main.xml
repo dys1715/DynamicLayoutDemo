@@ -12,16 +12,16 @@
     tools:context="dys.dynamiclayoutdemo.MainActivity">
 
     <Button
-        android:id="@+id/btn_dynamic"
+        android:id="@+id/btn_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="动态布局"/>
 
     <Button
-        android:id="@+id/btn_drawable"
+        android:id="@+id/btn_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_dynamic"
+        android:layout_below="@+id/btn_1"
         android:layout_marginTop="10dp"
         android:text="Drawable"/>
 </RelativeLayout>
